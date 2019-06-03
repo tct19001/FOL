@@ -1,0 +1,202 @@
+
+
+.gridLayout {
+  display: grid;
+  width: device-width;
+  margin:auto;
+  grid-template-columns: 50% 50%;
+}
+
+/* gridLayout elements*/
+footer {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:4;
+  grid-row-end:5;
+  padding: 1.5em 2em;
+  background-color:#f0c7bb;
+  color: #6d4840;
+  text-align:right;
+  font-size:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.box-left{
+  grid-column-start:1;
+  grid-column-end:2;
+  margin-bottom:2vw;
+}
+
+#box-left-image{
+  margin-left:2vw;
+}
+
+#box-left-text{
+  margin:3vw 2vw;
+  text-align:center;
+}
+
+.box-right{
+  grid-column-start:2;
+  grid-column-end:3;
+  width: auto;
+  margin-right:4vw;
+}
+
+#box-right-text{
+  margin-left:4vw;
+}
+
+#box-right-image{
+margin:2vw;
+margin-bottom:2.5vw;
+margin-right:5vw;
+
+}
+
+/* Läs */
+.text {
+  padding: 25px 25px 75px;
+}
+
+#top{
+  padding-top:6vw;
+}
+#Dikter {
+  margin-left:20vw;
+  margin-right:20vw;
+}
+
+article{
+  padding-top:8vw;
+}
+
+
+/* Navbar Styling*/ 
+.navbar-custom{
+  background-color: #f0c7bb;
+}
+
+.bg-custom{
+  background-color: #f0c7bb;
+}
+
+.navbar-text{
+  font-family: 'Tangerine', sans-serif;
+  font-size:30px;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+.navbar-toggler-icon{
+  font-size: 20px;
+  align-content: flex-end;
+}
+
+/*Link Styling*/
+a:link {
+  text-align: center;
+  display: inline-block;
+  color:#6d4840;
+  font-family: 'Quicksand', sans-serif;
+}
+.nav-link{
+  font-size:1.2em;
+  margin-right:1vw;
+}
+#link-in-text{
+  font-size: 1.7vw;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.active{
+  background-color: #ffffff;
+  color: #f58d3e;
+  text-decoration: underline;
+}
+
+a:visited{
+  color:#f58d3e;;
+  text-decoration: underline;
+}
+
+.contact{
+  font-size: 1.9vw;
+}
+ 
+/* Image styling*/
+.image-title{
+  float: none;
+  width: 100%;
+  height: 40em;
+}
+
+.vykort{
+  float: none;
+  width: 60vw;
+  height:40vw;
+}
+
+.box-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position:center;
+  margin:2vw;
+}
+
+.prof-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position:center;
+}
+
+/*Text Styling*/
+#text-om-mig {
+  font-size:2vw;
+  line-height: 1.3em;
+  color:black;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.Inledning {
+  margin-top:1em;
+  font-size:2.5vw;
+  text-align: center;
+  line-height: 1.5em;
+  color:#6d4840;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+  font-size:6vw;
+  font-weight: 600;
+  font-family: 'Tangerine', sans-serif;
+}
+
+h2{
+  font-size:4vw;
+  font-family: 'Tangerine', sans-serif;
+  font-weight: 700;
+}
+p{
+  font-size:2em;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+strong{
+  font-size:2.5vw;
+  font-family: 'Tangerine', sans-serif;
+}
+
+
+
