@@ -83,7 +83,8 @@ article{
 
 .navbar-text{
   font-family: 'Tangerine', sans-serif;
-  font-size:30px;
+  font-size:3vw;
+  margin-right:2vw;
 }
 
 .sticky-top {
@@ -104,10 +105,12 @@ a:link {
   color:#6d4840;
   font-family: 'Quicksand', sans-serif;
 }
+
 .nav-link{
-  font-size:1.2em;
-  margin-right:1vw;
+  font-size:2.5vw;
+  margin-right:2vw;
 }
+
 #link-in-text{
   font-size: 1.7vw;
   font-family: 'Quicksand', sans-serif;
